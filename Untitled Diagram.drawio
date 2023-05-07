@@ -1,6 +1,6 @@
-<mxfile modified="2023-05-07T09:16:41.631Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="ogiXUrwiQRCq_xjDH-PF" version="21.2.7" type="github">
+<mxfile modified="2023-05-07T17:39:33.389Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="uB6PLDMPVIl1gjKkFWRq" version="21.2.7" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="2466" dy="1230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="986" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,10 +61,10 @@
         <mxCell id="4YCI477bfAeU8ZQTgAqc-266" value="Client system (Web browser or mobile app) when connects to the Web application (www.mysite.com) using the URL, the router first refers the URL and corresponding IP address map to find the IP address of the site. If entry for the URL is not present in the map, then request is forwarded to immediate DNS (Domain Name Server) to find the required IP address. Once the IP address is resolved the request is made to the Web Application Server." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="379.5" y="1247" width="449" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="4YCI477bfAeU8ZQTgAqc-267" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="377" y="1377" width="450" height="115" as="geometry" />
+        <mxCell id="4YCI477bfAeU8ZQTgAqc-267" value="&lt;span&gt;Load Balancer IP, a public IP is generally mapped to a URL of the Web application. Load Balancer is actually forwards to actual web/application servers using their private IP addresses. Following advantages of load balancer&lt;br&gt;&amp;nbsp; 1. High availability, as one web server goes down forwards to other.&lt;br&gt;&amp;nbsp; 2. When load increases, a new servers can be brought up to cater load&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="377" y="1377" width="450" height="103" as="geometry" />
         </mxCell>
-        <mxCell id="4YCI477bfAeU8ZQTgAqc-268" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4YCI477bfAeU8ZQTgAqc-268" value="Application with large user base spread across the globe, generally face latency issue if the clients located at geographically far away. Another problem of outage of the data center because of power failue, weather condition and any other reason could be SPOF. Data center replication could be useful for reducing the latence due to distance of location, load sharing and high availability." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="378.5" y="1509" width="450" height="117" as="geometry" />
         </mxCell>
         <mxCell id="4YCI477bfAeU8ZQTgAqc-269" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -701,6 +701,21 @@
         </mxCell>
         <mxCell id="4YCI477bfAeU8ZQTgAqc-286" value="NoSQL" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="1115" y="741" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4YCI477bfAeU8ZQTgAqc-288" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/CDN_Profiles.svg;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="186.5" width="119" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4YCI477bfAeU8ZQTgAqc-289" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;CDN&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1575.5" y="263" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4YCI477bfAeU8ZQTgAqc-290" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.021;entryY=0.634;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4YCI477bfAeU8ZQTgAqc-11" target="4YCI477bfAeU8ZQTgAqc-288">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1340" y="400" as="sourcePoint" />
+            <mxPoint x="1390" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4YCI477bfAeU8ZQTgAqc-291" value="12" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="184.5" width="40" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
