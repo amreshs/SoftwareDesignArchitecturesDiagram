@@ -1,4 +1,4 @@
-<mxfile modified="2023-05-08T11:39:33.964Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="-AXYgs2Ar2NCx8mU9lmg" version="21.2.7" type="github">
+<mxfile modified="2023-05-08T14:37:48.689Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="Sw6GqgHrRNuE7-kgVtyv" version="21.2.7" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="986" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="374" y="1045" width="320" height="150" as="geometry" />
         </mxCell>
         <mxCell id="4YCI477bfAeU8ZQTgAqc-256" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="328" y="1242" width="1147" height="727" as="geometry" />
+          <mxGeometry x="326" y="1242" width="1147" height="727" as="geometry" />
         </mxCell>
         <mxCell id="4YCI477bfAeU8ZQTgAqc-249" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="1127.5" width="120" height="60" as="geometry" />
@@ -28,7 +28,7 @@
         <mxCell id="4YCI477bfAeU8ZQTgAqc-254" value="Automation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="586" y="1143" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4YCI477bfAeU8ZQTgAqc-255" value="10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="4YCI477bfAeU8ZQTgAqc-255" value="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="374" y="1084" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="4YCI477bfAeU8ZQTgAqc-257" value="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
@@ -56,7 +56,7 @@
           <mxGeometry x="974.5" y="1479.5" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="4YCI477bfAeU8ZQTgAqc-265" value="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="972.5" y="1599.5" width="40" height="38" as="geometry" />
+          <mxGeometry x="972.5" y="1604.5" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="4YCI477bfAeU8ZQTgAqc-266" value="Client system (Web browser or mobile app) when connects to the Web application (www.mysite.com) using the URL, the router first refers the URL and corresponding IP address map to find the IP address of the site. If entry for the URL is not present in the map, then request is forwarded to immediate DNS (Domain Name Server) to find the required IP address. Once the IP address is resolved the request is made to the Web Application Server." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="379.5" y="1247" width="449" height="118" as="geometry" />
@@ -79,11 +79,11 @@
         <mxCell id="4YCI477bfAeU8ZQTgAqc-272" value="Access to a database for every single query is expensive as it has database access latency and also adds the load on database. Read only information of the database can be maitained at cache servers which are much faster to access. Consideration of cache usage are Decide when to use cache, Expiration Policy, Consistency, Mitigation failures, Eviction Policies like LRU, LFU and FIFO.&amp;nbsp;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1025" y="1368" width="449" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="4YCI477bfAeU8ZQTgAqc-273" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4YCI477bfAeU8ZQTgAqc-273" value="Some resource intensive (high CPU and RAM) operations being executed on web/application server could be done on other system in asynchronus mode to reduce the overall load on the server. A message queue which is publish-subscribe system could be used for submitting the processing request which will be consumed by the supplementory system (worker) to process the request in FIFO.&amp;nbsp; Workers can be added or removed based on count of pending requests on message queue." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1025" y="1481" width="449" height="124" as="geometry" />
         </mxCell>
         <mxCell id="4YCI477bfAeU8ZQTgAqc-274" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1025" y="1595.5" width="449" height="119.5" as="geometry" />
+          <mxGeometry x="1025" y="1600.5" width="449" height="119.5" as="geometry" />
         </mxCell>
         <mxCell id="4YCI477bfAeU8ZQTgAqc-275" value="10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="973.5" y="1725" width="40" height="38" as="geometry" />
@@ -154,7 +154,7 @@
         <mxCell id="jZVaUwOg5UY3L9NAnvdq-35" value="3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="67.5" y="609" width="40" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="jZVaUwOg5UY3L9NAnvdq-37" value="11" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+        <mxCell id="jZVaUwOg5UY3L9NAnvdq-37" value="10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="1063.5" y="638" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="4YCI477bfAeU8ZQTgAqc-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4YCI477bfAeU8ZQTgAqc-4" target="4YCI477bfAeU8ZQTgAqc-3">
@@ -411,9 +411,6 @@
             <mxPoint x="460" y="935" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4YCI477bfAeU8ZQTgAqc-149" value="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="901.5" y="865" width="40" height="38" as="geometry" />
-        </mxCell>
         <mxCell id="4YCI477bfAeU8ZQTgAqc-151" value="8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="774.5" y="597" width="40" height="38" as="geometry" />
         </mxCell>
@@ -660,10 +657,7 @@
             <mxPoint x="1714" y="932" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4YCI477bfAeU8ZQTgAqc-243" value="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="2155.5" y="862" width="40" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="4YCI477bfAeU8ZQTgAqc-244" value="10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="4YCI477bfAeU8ZQTgAqc-244" value="9" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="1632.5" y="1090" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="4YCI477bfAeU8ZQTgAqc-245" value="8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" vertex="1" parent="1">
@@ -714,7 +708,7 @@
             <mxPoint x="1390" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4YCI477bfAeU8ZQTgAqc-291" value="12" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="4YCI477bfAeU8ZQTgAqc-291" value="11" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="1500" y="184.5" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="4YCI477bfAeU8ZQTgAqc-292" value="Geo-Routed (geoDNS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-15;" vertex="1" parent="1">
